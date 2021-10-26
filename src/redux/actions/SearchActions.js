@@ -39,8 +39,8 @@ export const fetchMovies =
       }
     } catch (err) {
       dispatch(setAlert(err.toString()));
-      dispatch(onClear());
-      // Handle Error Here
+      /*       dispatch(onClear());
+       */ // Handle Error Here
       console.error(err);
     } finally {
       dispatch(setLoading(false));

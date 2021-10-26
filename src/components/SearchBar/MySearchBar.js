@@ -66,7 +66,7 @@ const MySearchBar = () => {
         dispatch(fetchMovies(query));
         mySearchBarRef?.current?.blur();
       }
-    }, 300);
+    }, 500);
 
     return () => clearTimeout(delayDebounceFn);
   }, [dispatch, query]);
