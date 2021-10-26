@@ -21,6 +21,6 @@ Best Practices
 
 Images
 
-![Splash](/assets/showcase/splash.png)
-![Home](/assets/showcase/home.png)
-![Details](/assets/showcase/details.png)
+![Splash](src/assets/showcase/splash.png)
+![Home](src/assets/showcase/home.png)
+![Details](src/assets/showcase/details.png)
